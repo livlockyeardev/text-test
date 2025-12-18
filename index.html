@@ -16,7 +16,40 @@
 <body>
     <header class="site-header">
         <h1>Typeracer</h1>
+    <a class="instruction-btn" href="#">Instructions</a>
     </header>
+  <main class="content container-fluid">
+    <div class="row g-3">
+      <div class="col-12 col-md-8">
+        <div class="difficulty-row input-group">
+          <span class="input-group-text">Select Difficulty</span>
+          <select class="form-select" aria-label="Select difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+        </div>
+        <p class="instruction-text">Test your typing speed by typing below</p>
+        <form class="typing-test-form">
+          <div class="display-text">the cat sat on the mat</div>
+          <textarea class="form-control typing-input" rows="5" placeholder="Click the start button to start the test"></textarea>
+          <div class="button-container">
+            <button type="button" class="test-btn">start</button>
+            <button type="button" class="test-btn">stop</button>
+            <button type="button" class="test-btn">retry</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="results-panel">
+          <h3>Results</h3>
+          <p>level</p>
+          <p>time</p>
+          <p>WPM</p>
+        </div>
+      </div>
+    </div>
+  </main>
 <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
