@@ -1,0 +1,16 @@
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+.site-header {
+	background-color: #ff8400;
+	color: #ffffff;
+	padding: 16px 24px;
+}
+
+.site-header h1 {
+	margin: 0;
+	font-size: 24px;
+}
