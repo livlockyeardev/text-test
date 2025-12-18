@@ -47,8 +47,8 @@ main{
 }
 
 .difficulty-row .input-group-text {
-	background-color: #7d7d7d;
-	color: #ffffff;
+	background-color: #c0c0c0;
+	color: #000000;
 }
 
 .results-panel {
@@ -110,4 +110,12 @@ main{
 
 .test-btn:hover {
 	background-color: #fff5eb;
+}
+
+@media (min-width: 768px) {
+	.content {
+		width: 90vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
